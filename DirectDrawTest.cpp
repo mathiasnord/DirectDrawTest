@@ -60,7 +60,7 @@ HWND initWindow()
         "WndClass", "WndName",
         0, //WS_POPUP,
         CW_USEDEFAULT, CW_USEDEFAULT, 640, 480,
-        NULL, NULL, hInst, NULL);
+		nullptr, nullptr, hInst, nullptr);
 
     ShowWindow(hWnd, SW_SHOW);
     UpdateWindow(hWnd);
