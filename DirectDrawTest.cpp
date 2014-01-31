@@ -280,7 +280,7 @@ int main(int argc, char* argv[])
         return 0;
     }
 
-    localImage("C:/projects/Gvahim/DirectDrawTest/test1.bmp", &g_img);
+    localImage("test1.bmp", &g_img);
 
     DDCOLORKEY ddck;
     ddck.dwColorSpaceLowValue = 0xffffff;
