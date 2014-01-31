@@ -6,8 +6,8 @@ using namespace std;
 
 HWND g_hMainWnd;
 IDirectDraw7* g_pDD = nullptr;        // DirectDraw object
-IDirectDrawSurface7* g_pDDSFront = NULL;  // DirectDraw fronbuffer surface
-IDirectDrawSurface7* g_pDDSBack = NULL;   // DirectDraw backbuffer surface
+IDirectDrawSurface7* g_pDDSFront = nullptr;  // DirectDraw fronbuffer surface
+IDirectDrawSurface7* g_pDDSBack = nullptr;   // DirectDraw backbuffer surface
 IDirectDrawClipper* g_clipper;
 bool g_isWindowed;
 
