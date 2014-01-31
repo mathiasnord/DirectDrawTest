@@ -5,9 +5,9 @@
 using namespace std;
 
 HWND g_hMainWnd;
-IDirectDraw7* g_pDD = NULL;        // DirectDraw object
-IDirectDrawSurface7* g_pDDSFront = NULL;  // DirectDraw fronbuffer surface
-IDirectDrawSurface7* g_pDDSBack = NULL;   // DirectDraw backbuffer surface
+IDirectDraw7* g_pDD = nullptr;        // DirectDraw object
+IDirectDrawSurface7* g_pDDSFront = nullptr;  // DirectDraw fronbuffer surface
+IDirectDrawSurface7* g_pDDSBack = nullptr;   // DirectDraw backbuffer surface
 IDirectDrawClipper* g_clipper;
 bool g_isWindowed;
 
@@ -59,7 +59,7 @@ HWND initWindow() {
         "WndClass", "WndName",
         0, //WS_POPUP,
         CW_USEDEFAULT, CW_USEDEFAULT, 640, 480,
-        NULL, NULL, hInst, NULL);
+		nullptr, nullptr, hInst, nullptr);
 
     ShowWindow(hWnd, SW_SHOW);
     UpdateWindow(hWnd);
