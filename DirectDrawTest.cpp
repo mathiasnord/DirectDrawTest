@@ -37,8 +37,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     return DefWindowProc(hWnd, message, wParam, lParam);
 } 
 
-HWND initWindow()
-{
+HWND initWindow() {
     HWND hWnd;
     WNDCLASSW wc;
     HINSTANCE hInst = GetModuleHandle(NULL);
